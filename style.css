@@ -1,0 +1,337 @@
+body {
+    margin-top: 0px;
+}
+header {
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+nav a {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+}
+nav a:hover {
+    color: white;
+    background-color: black;
+}
+ul {
+    padding: 0px;
+    margin: 2px auto;
+}
+hr {
+    color: lightgray;
+    margin: 0px;
+}
+.home-sec {
+    text-align: center;
+}
+.home-sec a {
+    text-decoration: none;
+    color: black;
+}
+h2 {
+    text-transform: uppercase;
+    margin: 40px 0px 25px;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    font-size: 28px;
+}
+article {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid lightgrey;
+}
+article div {
+    background-color: white;
+    position: relative;
+}
+article h3 {
+    margin: 0px 10px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+article p {
+    margin: 10px;
+    font-size: 14px;
+    color: grey;
+}
+footer {
+    text-align: center;
+    margin: 100px 0 30px;
+    font-size: 12px;
+    color: grey;
+}
+.clanak-sec {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+.clanak-sec a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clanak-sec > p:first-child {
+    color: grey;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clanak-sec h1 {
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.clanak-sec img + p {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clanak-sec p:nth-child(5) {
+    border: 1px solid lightgrey;
+    padding: 15px 10px;
+    margin: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clanak-sec p:nth-child(6) {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.unos-sec {
+    text-align: left;
+}
+.bojaPoruke {
+    color: red;
+}
+.logout-segm p, .login-segm p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.logout-segm p span {
+    font-weight: bold;
+    color: darkgreen;
+}
+.logout, .login {
+    padding: 20px 30px;
+    background-color: darkslateblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 4px solid darkslateblue;
+    border-radius: 15px;
+}
+.logout:hover, .login:hover {
+    border: 4px solid black;
+}
+form, .odabir-unosa {
+    text-align: center;
+}
+.mod-form textarea, .mod-form input {
+    margin-bottom: 20px;
+}
+.mod-form img, .mod-form select, .mod-form input[type='checkbox'] {
+    margin-bottom: 20px;
+}
+.mod-form textarea {
+    width: 400px;
+    height: 200px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 10px 0;
+}
+.mod-form input[type='text'] {
+    font-weight: bold;
+    font-size: 20px;
+    width: 400px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 10px 0;
+}
+.mod-form select, .mod-form input[type='file'] {
+    padding: 10px 20px;
+    background-color: rgb(195, 210, 211);
+}
+.mod-form button {
+    padding: 10px 30px;
+    background-color: lightskyblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 4px solid lightskyblue;
+    text-align: center;
+}
+.mod-form button[type="reset"] {
+    background-color: rgb(209, 163, 102);
+    border: 4px solid rgb(209, 163, 102);
+}
+.mod-form button[name="update"] {
+    background-color: rgb(83, 131, 95);
+    border: 4px solid rgb(83, 131, 95);
+}
+.mod-form button[name="delete"] {
+    background-color: rgb(102, 58, 58);
+    border: 4px solid rgb(102, 58, 58);
+}
+.mod-form button:hover {
+    border: 4px solid white;
+}
+.login-form label, .reg-form label, .mod-form label {
+    font-size: 18px;
+    color: lightseagreen;
+}
+.login-form input[type='text'], 
+.login-form input[type='password'],
+.reg-form input[type='text'],
+.reg-form input[type='password'] {
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 10px 0;
+}
+.login-form a, .login-form button, .reg-form button, .odabir-unosa a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    padding: 20px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+}
+.login-form a, .odabir-unosa a {
+    display: inline-block;
+    background-color: lightseagreen;
+    text-decoration: none;
+}
+.login-form button, .reg-form button {
+    background-color: lightskyblue;
+    width: 420px;
+    border: 4px solid lightskyblue;
+}
+.login-form a:hover {
+    background-color: rgb(46, 129, 125);
+}
+.login-form button:hover, .reg-form button:hover {
+    background-color: rgb(88, 138, 153);
+    width: 420px;
+    border: 4px solid rgb(31, 98, 139);
+}
+.odabir-unosa {
+    margin-top: 0px;
+}
+.msg-not-admin, .bad-login, .succ-login {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: brown;
+}
+.succ-login {
+    color: green;
+}
+.bad-login a {
+    color: blue;
+    font-weight: bold;
+}
+@media (max-width: 999px) {
+    #helpFixed {
+        height: 240px;
+    }
+    header img {
+        width: 100px;
+    }
+    li {
+        list-style-type: none;
+    }
+    .home-sec img {
+        width: 100%;
+        object-fit: cover;
+    }
+    article {
+        width: 70%;
+    }
+    article div {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: -40px;
+    }
+    .clanak-sec img {
+        width: 100%;
+    }
+    .logout-segm, .login-segm {
+        width: 70%;
+        text-align: center;
+        z-index: 3;
+        margin: 0 auto;
+    }
+    .logout, .login {
+        display: block;
+    }
+}
+@media (min-width: 1000px) {   
+    #helpFixed {
+        height: 170px;
+    }
+    header img {
+        width: 250px;
+    }
+    nav {
+        margin: 10px auto;
+        width: 60%;
+    }
+    li {
+        list-style-type: none;
+        display: inline-block;
+    }
+    .home-sec > div {
+        display: flex;
+        justify-content: center;
+    }
+    .home-sec img {
+        width: 300px;
+        max-height: 146px;
+        object-fit: cover;
+    }
+    h2 {
+        text-transform: uppercase;
+        margin: 40px 0px 25px;
+        font-family: 'Arial Narrow';
+        font-weight: bold;
+        font-size: 28px;
+    }
+    article div {
+        width: 268px;
+        margin-left: 16px;
+        margin-top: -20px;
+    } 
+    .clanak-sec img {
+        width: 70%;
+    } 
+    .logout-segm, .login-segm {
+        position: fixed;
+        right: 30px;
+        top: 30px;
+        width: 250px;
+        text-align: center;
+        z-index: 3;
+    } 
+    .logout, .login {
+        display: inline-block;
+    }
+}
